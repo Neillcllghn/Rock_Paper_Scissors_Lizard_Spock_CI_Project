@@ -153,3 +153,46 @@ h1, h2 {
 footer {
     height: 30vh;
 }
+
+/*-score-area-*/
+/*-Inspired by the Love Maths Project by CI-*/
+.score-area {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: stretch;
+    background-color: #fff;
+    border: 5px solid #252525;
+    margin: 2rem auto 1rem auto;
+    padding: 10px;
+    width: 30%;
+}
+
+.scores {
+    display: inline-block;
+    font-size: 20px;
+}
+
+#win {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#draw {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#lose {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*-css for the result message-*/
+#result {
+    font-size: 30px;
+}
