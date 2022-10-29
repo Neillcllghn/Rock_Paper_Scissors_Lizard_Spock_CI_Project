@@ -35,3 +35,21 @@ h1, h2 {
         font-size: 0.8rem;
     }
 }
+
+/*-the game area-*/
+/*-Inspired by the Love Maths Project by CI and my Project-Simple Foods-*/
+
+.play-area {
+    background: linear-gradient(45deg, grey, transparent);
+    /*-Ispired display and Justify content via How to Align Image and Text Side by Side with HTML & CSS | frontendDUDE-*/
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 2rem auto 1rem auto;
+    border: 5px solid black;
+}
+
+.game-zone {
+    text-align: center;
+}
+
