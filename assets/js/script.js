@@ -28,3 +28,35 @@ document.addEventListener("DOMContentLoaded", function() {
 
     
 });
+
+
+function winScore (computerChoice) {
+    let winPoints = parseInt(document.getElementById("win").innerText);
+    document.getElementById("win").innerText = ++winPoints;
+    document.getElementById("result").innerHTML = `<p>Congradulations....You Win!!! The Computer chose ${computerChoice}</p>`;
+
+    let message = document.getElementById("result");
+    message.style.color = "green";
+
+
+}
+
+function drawScore (computerChoice) {
+    let drawPoints = parseInt(document.getElementById("draw").innerText);
+    document.getElementById("draw").innerText = ++drawPoints;
+    document.getElementById("result").innerHTML = `<p>It is a draw! The Computer chose ${computerChoice}</p>`;
+
+    let message = document.getElementById("result");
+    message.style.color = "orange";
+}
+
+function loseScore (computerChoice) {
+    let losePoints = parseInt(document.getElementById("lose").innerText);
+    document.getElementById("lose").innerText = ++losePoints;
+    document.getElementById("result").innerHTML = `<p>Sorry, You lost! The Computer chose ${computerChoice}</p>`;
+
+    let message = document.getElementById("result");
+    message.style.color = "red";
+}
+
+
