@@ -16,12 +16,13 @@
     <!--Inspired by Love Maths-->
 
     <div id="sign-in-div">
-        <input id="username" type="text" placeholder="enter username.....">
+        <input id="username" type="text" placeholder="enter username....." onclick="userAccess ()">
         <span id="message"></span>
         <br>
-        <input type="submit" id="proceed">
+        <input type="submit" id="proceed" onclick="userAccess ()">
 
     </div>
+    <div id="game-arena" onclick="userAccess ()">
 <div class="play-area">
     <div class="game-zone">
         <button aria-label="rock" data-type="rock" class="btn btn--big btn--brown">
@@ -47,6 +48,7 @@
     <p class="scores">Win <span id="win">0</span></p>
     <p class="scores">Draw <span id="draw">0</span></p>
     <p class="scores">lose <span id="lose">0</span></p>
+</div>
 </div>
 <footer>
     <h2 class="rules-heading">Rules of the game:</h2>

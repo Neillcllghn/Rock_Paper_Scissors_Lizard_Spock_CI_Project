@@ -1,3 +1,22 @@
+
+//Inspired by video on TextBox validation by Thapa Technical
+
+function userAccess () {
+    let gameArena = document.getElementById("game-arena");
+    let username = document.getElementById("username").value;
+   
+    if(username === "") {
+        gameArena.style.display = 'none';
+        document.getElementById("message").innerHTML="Please fill in username before proceeding";
+        document.getElementById("message").style.color ="white";
+    }
+    else {
+        gameArena.style.display = 'block';
+        document.getElementById("message").innerHTML="";
+        console.log(username);
+    }
+}
+
 //Inspired by Love Maths and Rock Paper Scissors Game Using HTML & CSS & JavaScript by True Coder
 let choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
