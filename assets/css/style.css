@@ -219,3 +219,7 @@ footer {
     margin: 5px 0 20px 0;
     border-radius: 2px;
 }
+
+#game-arena {
+    display: none;
+}
