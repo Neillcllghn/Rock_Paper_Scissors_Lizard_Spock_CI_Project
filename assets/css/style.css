@@ -22,8 +22,6 @@ h1, h2 {
     color: #252525;
 }
 
-/*-Heading css-*/
-
 .heading {
     text-align: center;
     font-size: 1.5rem;
@@ -36,7 +34,6 @@ h1, h2 {
     }
 }
 
-/*-the game area-*/
 /*-Inspired by the Love Maths Project by CI and my Project-Simple Foods-*/
 
 .play-area {
@@ -53,8 +50,7 @@ h1, h2 {
     text-align: center;
 }
 
-/* --------- Buttons */
-/*-Inspired by the Love Maths Project by CI-*/
+/*-buttons section Inspired by the Love Maths Project by CI-*/
 
 .btn {
     width: 220px;
@@ -149,12 +145,10 @@ h1, h2 {
     color: #fff;
 }
 
-/*-footer-*/
 footer {
     height: 30vh;
 }
 
-/*-score-area-*/
 /*-Inspired by the Love Maths Project by CI-*/
 .score-area {
     display: flex;
@@ -192,7 +186,7 @@ footer {
     font-size: 20px;
 }
 
-/*-css for the result message-*/
+
 #result {
     font-size: 30px;
 }

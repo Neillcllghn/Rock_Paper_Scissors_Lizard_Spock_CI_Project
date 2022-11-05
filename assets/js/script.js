@@ -23,7 +23,6 @@ function userAccess () {
 //Inspired by Love Maths and Rock Paper Scissors Game Using HTML & CSS & JavaScript by True Coder
 let choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
-//adding an event listener to all the buttons
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     
