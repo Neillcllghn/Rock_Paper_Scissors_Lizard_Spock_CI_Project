@@ -56,8 +56,8 @@ I confirmed that the colors and font chosen are easy to read and accessible by r
 #### Mobile devices:
  ![image](https://user-images.githubusercontent.com/109948740/199324071-44106756-fb88-4b29-8e0e-8ac5f8f5c17b.png)
 
-##Features left to implement:
--If there is time, I would like to implement a function that the user can play to a limit in which there is an out right winner/loser.
+## Features left to implement:
+- If there is time, I would like to implement a function that the user can play to a limit in which there is an out right winner/loser.
 
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
