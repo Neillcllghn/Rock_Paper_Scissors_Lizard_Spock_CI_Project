@@ -32,7 +32,7 @@ Users will learn the rules of the game (which is located in the footer of the pa
 
 ![image](https://user-images.githubusercontent.com/109948740/199321459-dd158263-ce1d-48de-87b2-a8ef815a017f.png)
 ![image](https://user-images.githubusercontent.com/109948740/199321009-228bc9dc-6c4b-4075-b913-4f40be759d92.png)
-![image](https://user-images.githubusercontent.com/109948740/200126532-714e11cb-af56-4a0d-a12b-e8548d81594d.png)
+![image](https://user-images.githubusercontent.com/109948740/200126662-5cb4dfb2-1833-4fcf-ba08-85ccdba8b29b.png)
 ![image](https://user-images.githubusercontent.com/109948740/200126600-ec520003-e7b8-448d-9d97-d06dcc15ccf1.png)
 
 ## Footer:
