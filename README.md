@@ -28,9 +28,12 @@ Users will learn the rules of the game (which is located in the footer of the pa
 -	When the user selects an option, the results are recorded in the game result box.
 -	A message will appear just below the Game area section and above the Game result section outlining whether the user had won, lost or drew with the computer and provide the user with what the computer chose.
 -	The results and score are clear to the user, making the game easy to play and understand.
+- Furthermore, there is a limit to how many wins, draws or loses can be made as there is a first to ten points in which a message will appear stating with the user is the victor or the computer is (SKYNET Rules!!) or it is a Stalemate. In which case, the game results will reset to zero.
 
 ![image](https://user-images.githubusercontent.com/109948740/199321459-dd158263-ce1d-48de-87b2-a8ef815a017f.png)
 ![image](https://user-images.githubusercontent.com/109948740/199321009-228bc9dc-6c4b-4075-b913-4f40be759d92.png)
+![image](https://user-images.githubusercontent.com/109948740/200126532-714e11cb-af56-4a0d-a12b-e8548d81594d.png)
+![image](https://user-images.githubusercontent.com/109948740/200126600-ec520003-e7b8-448d-9d97-d06dcc15ccf1.png)
 
 ## Footer:
 -	This outlines the rules of the game and therefore is a valuable part of the app for the user to gain an understanding of the game dynamics.
