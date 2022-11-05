@@ -55,10 +55,18 @@ document.addEventListener("DOMContentLoaded", function() {
 function winScore (computerChoice) {
     let winPoints = parseInt(document.getElementById("win").innerText);
     document.getElementById("win").innerText = ++winPoints;
-    document.getElementById("result").innerHTML = `<p>Congradulations....You Win!!! The Computer chose ${computerChoice}</p>`;
 
     let message = document.getElementById("result");
     message.style.color = "green";
+
+    if (winPoints >= 10) {
+        document.getElementById("win").innerText = 0;
+        document.getElementById("draw").innerText = 0;
+        document.getElementById("lose").innerText = 0;
+        document.getElementById("result").innerHTML = `<p><strong>YOU ARE THE VICTOR!!!!</strong></p>`;
+    } else {
+        document.getElementById("result").innerHTML = `<p>Congradulations....You Win!!! The Computer chose ${computerChoice}</p>`;
+    }
 
 
 }
@@ -66,19 +74,35 @@ function winScore (computerChoice) {
 function drawScore (computerChoice) {
     let drawPoints = parseInt(document.getElementById("draw").innerText);
     document.getElementById("draw").innerText = ++drawPoints;
-    document.getElementById("result").innerHTML = `<p>It is a draw! The Computer chose ${computerChoice}</p>`;
 
     let message = document.getElementById("result");
     message.style.color = "orange";
+
+    if (drawPoints >= 10) {
+        document.getElementById("win").innerText = 0;
+        document.getElementById("draw").innerText = 0;
+        document.getElementById("lose").innerText = 0;
+        document.getElementById("result").innerHTML = `<p><strong>IT IS A STALEMATE!</strong></p>`;
+    } else {
+        document.getElementById("result").innerHTML = `<p>It is a draw! The Computer chose ${computerChoice}</p>`;
+    }
 }
 
 function loseScore (computerChoice) {
     let losePoints = parseInt(document.getElementById("lose").innerText);
     document.getElementById("lose").innerText = ++losePoints;
-    document.getElementById("result").innerHTML = `<p>Sorry, You lost! The Computer chose ${computerChoice}</p>`;
 
     let message = document.getElementById("result");
     message.style.color = "red";
+
+    if (losePoints >= 10) {
+        document.getElementById("win").innerText = 0;
+        document.getElementById("draw").innerText = 0;
+        document.getElementById("lose").innerText = 0;
+        document.getElementById("result").innerHTML = `<p><strong>SKYNET RULES!!!!</strong></p>`;
+    } else {
+        document.getElementById("result").innerHTML = `<p>Sorry, You lost! The Computer chose ${computerChoice}</p>`;
+    }
 }
 
 
