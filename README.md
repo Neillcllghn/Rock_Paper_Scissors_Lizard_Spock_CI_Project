@@ -2,6 +2,8 @@
 Inspired by the Big Bang Theory - The Rock/Paper/Scissors game takes on a twist by adding in lizard and Spock to spice up the all too familiar game. Furthermore, you as the user will be competing not against family or friends (as people tend to get more familiar with each other’s game strategy), but against the computer. The computer will choose randomly, this will give a fairer result than that of playing with your hands.
 Users will learn the rules of the game (which is located in the footer of the page) and there is a handy video that the user can watch if they are still unsure as to what is going on. Furthermore, the user will be required to log a username before proceeding to the game. This site is targeted towards both adults and children as it is a simple app for which the user can have fun.
 
+![image](https://user-images.githubusercontent.com/109948740/200126239-dd402d83-b668-4dca-bf80-327612c79f7c.png)
+
 # Features
 ## Header:
 - The Header clearly tells the user what game they are playing.
