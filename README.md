@@ -29,3 +29,49 @@ Users will learn the rules of the game (which is located in the footer of the pa
 
 ![image](https://user-images.githubusercontent.com/109948740/199321459-dd158263-ce1d-48de-87b2-a8ef815a017f.png)
 ![image](https://user-images.githubusercontent.com/109948740/199321009-228bc9dc-6c4b-4075-b913-4f40be759d92.png)
+
+## Footer:
+-	This outlines the rules of the game and therefore is a valuable part of the app for the user to gain an understanding of the game dynamics.
+-	There is a link to a Youtube video to assist the user further should they still require assistance and possibly a bit of humour – directly from Big Bang Theory.
+
+![image](https://user-images.githubusercontent.com/109948740/199322714-ffdbef7c-5e62-497a-bdc4-001366d6362b.png)
+
+# Testing:
+- I tested that each page of the website works on different browsers such as Chrome, Firefox and Edge.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the header, Sign in section, Game area options, Game Results and footer text are all readable and easy to understand.
+- I confirmed that the sign-in section requires a username be inputted before the game can be played.
+
+
+# Validator Testing:
+### HTML:
+No errors were returned when passing through the official W3C validator.
+### CSS:
+No errors were found when passing through the official (jigsaw) validator.
+### Accessibility: (via Lighthouse)
+I confirmed that the colors and font chosen are easy to read and accessible by running it through lighthouse in devtools.
+#### Desktop devices:
+ ![image](https://user-images.githubusercontent.com/109948740/199324054-bf4e383c-ed8c-4483-a2c3-52d4687ab7b4.png)
+
+#### Mobile devices:
+ ![image](https://user-images.githubusercontent.com/109948740/199324071-44106756-fb88-4b29-8e0e-8ac5f8f5c17b.png)
+
+
+# Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab.
+2. Click on the Pages section within the Settings tab.
+2. From the source section drop-down menu, select main.
+3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here:
+
+# Credits:
+## Content
+1.	The code used for the Game area (Buttons) and the styling via CSS was inspired by the CI Project: [Love Maths]( https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
+2.	The Game functionality for JavaScript was inspired by the YouTube video [Rock Paper Scissors Game Using HTML & CSS & JavaScript](https://www.youtube.com/watch?v=eygshyXEWBk) by True Coder
+3.	The hiding of the game area and result section via JavaScript was inspired by Daniel Mark in the YouTube video: [Show or hide an element using JavaScript!](https://www.youtube.com/watch?v=DULFs16I_z8).
+4.	The username section functionality via JavaScript to prevent user from playing the game if a username is not inputted was inspired by the YouTube video [TextBox validation in Javascript | Username validation using Javascript in Hindi](https://www.youtube.com/watch?v=GOliPWW-NWY) by Thapa Technical.
+
+# Media
+- Images used came from [Font Awesome](https://fontawesome.com/)
